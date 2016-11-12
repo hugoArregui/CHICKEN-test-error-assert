@@ -1,0 +1,4 @@
+(repo git "git@github.com:hugoArregui/CHICKEN-test-error-assert.git")
+
+(uri targz "https://github.com/hugoArregui/CHICKEN-test-error-assert/archive/{egg-release}.tar.gz")
+(release "0.0.1")

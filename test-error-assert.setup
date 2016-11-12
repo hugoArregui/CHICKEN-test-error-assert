@@ -1,0 +1,7 @@
+(compile -d0 -O2 -J -s test-error-assert.scm)
+(compile -d0 -O2 -s test-error-assert.import.scm)
+
+(install-extension
+ 'test-error-assert
+ '("test-error-assert.so" "test-error-assert.import.so")
+ '((version "0.0.1")))

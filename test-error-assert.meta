@@ -1,0 +1,7 @@
+((synopsis "A more powerful test-error assertion for CHICKEN's test egg")
+ (author "Hugo Arregui")
+ (category testing)
+ (license "BSD")
+ (depends test)
+ (test-depends irregex srfi-1 srfi-13)
+ (foreign-depends))
